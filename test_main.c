@@ -5,12 +5,13 @@
 /*                                                     +:+                    */
 /*   By: rbakker <rbakker@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/12/18 14:33:23 by rbakker        #+#    #+#                */
-/*   Updated: 2019/12/19 19:08:41 by rbakker       ########   odam.nl         */
+/*   Created: 2019/12/18 14:33:23 by rbakker       #+#    #+#                 */
+/*   Updated: 2020/09/16 16:14:37 by roybakker     ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#include <stdio.h>
 
 int		main(void)
 {
@@ -40,7 +41,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = d |%.010d|", 10));
 	printf("\noutput : %d \n", printf("specifier = d |%.010d|", 10));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = d |%-d|", 10));
 	printf("\noutput : %d \n", printf("specifier = d |%-d|", 10));
 printf("-------\n");
@@ -97,7 +98,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %i \n", ft_printf("specifier = i |%.010i|", 10));
 	printf("\noutput : %i \n", printf("specifier = i |%.010i|", 10));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %i \n", ft_printf("specifier = i |%-i|", 10));
 	printf("\noutput : %i \n", printf("specifier = i |%-i|", 10));
 printf("-------\n");
@@ -129,7 +130,7 @@ printf("-------\n");
 	printf("\noutput : %i \n", printf("specifier = i |%010.5i|", 10));
 
 
-	
+
 printf("\n\n\n-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = %% |%10%|"));
 	printf("\noutput : %d \n", printf("specifier = %% |%10%|"));
@@ -148,7 +149,7 @@ printf("\n\n\n-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = c |%10c|", 'a'));
 	printf("\noutput : %d \n", printf("specifier = c |%10c|", 'a'));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = c |%-c|", 'a'));
 	printf("\noutput : %d \n", printf("specifier = c |%-c|", 'a'));
 printf("-------\n");
@@ -178,7 +179,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = s |%-30.5s|", "Hello World"));
 	printf("\noutput : %d \n", printf("specifier = s |%-30.5s|", "Hello World"));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = s |%-s|", "Hello World"));
 	printf("\noutput : %d \n", printf("specifier = s |%-s|", "Hello World"));
 printf("-------\n");
@@ -223,7 +224,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = x |%.010x|", 1243453));
 	printf("\noutput : %d \n", printf("specifier = x |%.010x|", 1243453));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = x |%-x|", 123));
 	printf("\noutput : %d \n", printf("specifier = x |%-x|", 123));
 printf("-------\n");
@@ -280,7 +281,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = X |%.010X|", 1243453));
 	printf("\noutput : %d \n", printf("specifier = X |%.010X|", 1243453));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = X |%-X|", 123));
 	printf("\noutput : %d \n", printf("specifier = X |%-X|", 123));
 printf("-------\n");
@@ -337,7 +338,7 @@ printf("-------\n");
 printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = u |%.030u|", 1243453));
 	printf("\noutput : %d \n", printf("specifier = u |%.030u|", 1243453));
-printf("-------\n");	
+printf("-------\n");
 	printf("\noutput : %d \n", ft_printf("specifier = u |%-u|", -30));
 	printf("\noutput : %d \n", printf("specifier = u |%-u|", -30));
 printf("-------\n");
