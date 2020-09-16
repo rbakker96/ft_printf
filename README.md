@@ -39,10 +39,10 @@ int	main(void)
 {
 	printf("\n ft_printf output : %d \n", ft_printf("specifier = d |%.0d|", 0));
 	printf("\n printf output : %d \n", printf("specifier = d |%.0d|", 0));
-  printf("-------\n");
+  	printf("-------\n");
 	printf("\n ft_ printf output : %d \n", ft_printf("specifier = d |%d|", 10));
 	printf("\n printf output : %d \n", printf("specifier = d |%d|", 10));
-  printf("-------\n");
+ 	printf("-------\n");
 }
 ``` 
 > test_main.c is also provided with a variety of test cases
@@ -62,6 +62,6 @@ $ ./a.out
 ### Used resources
 > Most noteworthy resources used during this project
 
-- <a href="http://www.cplusplus.com/reference/cstdio/printf/" target="_blank">Printf documentation</a>
-- <a href="https://www.thegeekstuff.com/2017/05/c-variadic-functions/" target="_blank">C Variadic Function Implementation Explained</a>
-- <a href="https://man7.org/linux/man-pages/man3/printf.3.html"_blank">Linux manual page</a>
+- <a href="http://www.cplusplus.com/reference/cstdio/printf/" target="blank">Printf documentation</a>
+- <a href="https://www.thegeekstuff.com/2017/05/c-variadic-functions/" target="blank">C Variadic Function Implementation Explained</a>
+- <a href="https://man7.org/linux/man-pages/man3/printf.3.html" target="blank">Linux manual page</a>
